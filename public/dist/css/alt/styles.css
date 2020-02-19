@@ -1,0 +1,45 @@
+.info {
+  /* box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  background: #ffffff; */
+  margin-bottom: 1rem;
+  min-height: 80px;
+  padding: .5rem;
+}
+.vendorLogo {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  background: #ffffff;
+  padding: 1rem;
+}
+.content-wrapper {
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+.sidebar {
+  background: #242424 !important;
+  padding: 0px !important;
+  height: 100% !important;
+}
+.user-panel {
+  background: #000;
+  border-bottom: 0px !important;
+  margin: 0px !important;
+}
+.brand-link {
+  background: #242424;
+  border-bottom: 0px !important;
+  padding: 0.55rem .8rem;
+}
+
+.main-header, .main-sidebar {
+  background: #242424 !important;
+}
+
+.nav-item:hover {
+  background: #ffb20f;
+}
+ 
+/* {
+  background: #ffb20f !important;
+} */
