@@ -1,27 +1,18 @@
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import App from './App.vue'
-import VueRouter from 'vue-router'
-import Routes from './routes'
-
-// import '../public/dist/js/app.js';
-
-// import '../public/scss/AdminLTE.scss';
-
-Vue.use(VueRouter);
-
-
-const router = new VueRouter ({
-  routes: Routes,
-  mode: 'history'
-})
-
+import App from './App'
+import router from './router'
 
 Vue.config.productionTip = false
 
 
 
 
+/* eslint-disable no-new */
 new Vue({
-  render: h => h(App),
-  router: router
-}).$mount('#app')
+  el: '#app',
+  router,
+  components: { App },
+  template: '<App/>'
+})

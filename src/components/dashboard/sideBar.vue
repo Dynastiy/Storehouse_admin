@@ -18,6 +18,7 @@
       </div>
 
       <!-- Sidebar Menu -->
+      
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           
@@ -103,15 +104,6 @@
               </p>
             </router-link>
             </li>
-
-            <!-- <li class="nav-item">
-            <router-link to='/' class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Overview
-              </p>
-            </router-link>
-            </li> -->
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
